@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles.css'
-import belumjadi from '../../assets/belumjadi.pdf'
+import {cv} from '../../assets'
+
 
 const LandingPage = () => {
   return (
@@ -24,7 +25,7 @@ const LandingPage = () => {
         <div className='roleex'>
           <h2>Fullstack web developer</h2>
           <h2>MERN Stack developer</h2>
-          <a href={belumjadi} download className='cv-button'>Download CV</a>
+          <a href={cv} download className='cv-button'>Download CV</a>
         </div>
         
       </div>
