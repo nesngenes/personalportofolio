@@ -18,6 +18,7 @@ const Skills = () => {
           <p>JavaScript</p>
           <p>HTML</p>
           <p>CSS</p>
+          <p>Axios</p>
         </div>
 
         <div className='skill'>
@@ -27,7 +28,7 @@ const Skills = () => {
           <p>Express.js</p>
           <p>MongoDB</p>
           <p>Third-Party Login</p>
-          <p>RESTful</p>
+          <p>RESTful API</p>
         </div>
 
         <div className='skill'>
