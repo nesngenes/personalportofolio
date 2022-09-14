@@ -36,8 +36,8 @@ const GetInTouch = () => {
                     <article className='artikel'>
                         <MdOutlineMailOutline />
                         <h4>Email</h4>
-                        <h5>mariabukanmonica@gmail.com</h5>
-                        <a href='mailto:mariabukanmonica@gmail.com'>Send a message</a>
+                        <h5>agnesmariaanggelina@gmail.com</h5>
+                        <a href='mailto:agnesmariaanggelina@gmail.com'>Send a message</a>
                     </article>
 
                     <article className='artikel'>
