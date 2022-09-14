@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: #212121;
+    padding: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar-heading {
+    margin-left: 16px;
+    text-transform: uppercase;
+}
+
+.navbar-content > * {
+    margin: 0 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.navbar-content a {
+    text-decoration: none;
+    color: white;
+}
+
+.mainmenu {
+    display: none;
+}
+
+@media screen and (max-width: 680px) {
+    .navbar-content {
+        display: none;
+    }
+
+    .navbar-mobile {
+        display: flex;
+        background-color: #212121;
+        color: white;
+        justify-content: space-between;
+        padding: 30px;
+    }
+
+    .navbar-content-mobile {
+        background-color: rgb(133, 190, 225);
+        display: flex;
+        flex-direction: column;
+        margin: 0 10px;
+        border-radius: 20px;
+        position: absolute;
+        z-index: 10;
+        top: 100px;
+        width: 80%;
+        line-height: 35px;
+
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: bolder;
+
+        align-items: center;
+    }
+
+    .navbar-content-mobile a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .navbar-heading {
+        margin: 0;
+    }
+
+    .mainmenu {
+        display: block;
+        height: 40px;
+        cursor: pointer;
+    }    
+}

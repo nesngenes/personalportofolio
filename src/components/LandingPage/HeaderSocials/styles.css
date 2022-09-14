@@ -1,0 +1,23 @@
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    align-items: center;
+}
+
+.header__socials a {
+    color: #03a8f4;
+    text-decoration: none;
+    font-size: large;
+}
+
+.header__socials a:hover {
+    color: white;
+}
+
+.header__socials::after {
+    content: "";
+    width: 1px;
+    height: 4rem;
+    background: #03a8f4;
+}

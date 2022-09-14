@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.landingPage {
+    height: 400px;
+    background-color: #212121;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column; 
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.roleex h2 {
+    color: white;
+    position: relative;
+    left: 580px;
+    top: 200px;
+    font-weight: normal;
+}
+
+.roleex {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cv-button {
+    position: relative;
+    left: 580px;
+    top: 220px;
+    font-weight: bolder;
+    background-color: #03a8f4;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.water {
+    display: flex;
+    justify-content: center;
+    font-size: 8em;
+    position: absolute;
+}
+
+.medium-water {
+    display: none;
+}
+
+.small-water {
+    display: none;
+}
+
+
+.heading-name {
+    display: flex;
+    justify-content: center;
+}
+
+.water:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 2px #03a8f4c7;
+}
+
+.water:nth-child(2) {
+    color: #03a8f4ce;
+    animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+    0%,100% {
+        clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+    }
+
+    50% {
+        clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .medium-water {
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .water {
+        font-size: 4em;
+        margin: 0;
+    }
+    
+    .big-water {
+        display: none;
+    }
+
+    .heading-name {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .roleex {
+        margin: 0;
+        position: relative;
+        bottom: 90px;
+        right: 580px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .small-water {
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .medium-water {
+        display: none;
+    }
+    
+    .water {
+        font-size: 3em;
+        margin: 0;
+    }
+    
+    .big-water {
+        display: none;
+    }
+
+    .heading-name {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .roleex {
+        margin: 0;
+        position: relative;
+        bottom: 90px;
+        right: 580px;
+        font-size: 15px;
+    }
+}

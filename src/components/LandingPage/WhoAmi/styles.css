@@ -1,0 +1,70 @@
+.who-am-i {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px;
+    background-color: hsl(0, 0%, 13%);
+    color: white;
+}   
+
+.brief-intro {
+    display: flex;
+}
+
+
+.who-am-i p {
+    margin-left: 100px;
+    width: 500px;
+    font-size: larger;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.scrool-down {
+    transform: rotate(90deg);
+    font-weight: 100;
+    color: #00aeff;
+    align-self: center;
+    justify-self: flex-start;
+}
+
+@media screen and (max-width: 1024px) {
+    .who-am-i {
+        margin: 0;
+        padding: 0;
+    }
+
+    .brief-intro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .who-am-i p {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .scrool-down {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .brief-intro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .who-am-i p {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        font-size: 18px;
+        line-height: normal;
+    }
+}
