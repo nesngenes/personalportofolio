@@ -23,8 +23,8 @@ const LandingPage = () => {
 
 
         <div className='roleex'>
-          <h2>Fullstack web developer</h2>
-          <h2>MERN Stack developer</h2>
+          <h2>Junior Fullstack web developer</h2>
+          <h2>Junior MERN Stack developer</h2>
           <a href={cv} download className='cv-button'>Download CV</a>
         </div>
         

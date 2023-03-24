@@ -10,7 +10,7 @@ const WhoAmi = () => {
 
         <div className='brief-intro'>
           <h2>Who am i </h2>
-          <p>Halo! Saya agnes, mahasiswi kelas karyawan jurusan Teknik Informatika universitas esa unggul. Selama 2 tahun terakhir, saya telah belajar mendalami web development dengan menggunakan MongoDB, Express.js, React, dan Node.js. Saya juga akan terus belajar dan berkembang untuk menjadi pribadi maupun developer yang lebih baik.</p>
+          <p>Hai! Saya Agnes, mahasiswa kelas karyawan jurusan Teknik Informatika Universitas Esa Unggul. Sekarang (pada semester 5 ini) saya sedang cuti kuliah dikarenakan faktor ekonomi dan saat ini saya sedang membutuhkan pekerjaan. <br/> <br />Saya memang belum memiliki pengalaman bekerja, tetapi saya telah mempelajari Web Development dengan menggunakan MongoDB, Express.js, React JS, dan Node.js selama kurang lebih 2 tahun. Untuk saat ini saya sedang berfokus mendalami Frontend dengan menggunakan CSS dan Figma sebagai UI design toolnya. Saya juga akan terus belajar dan berkembang menjadi pribadi maupun developer yang lebih baik.</p>
         </div>
 
         <HeaderSocials />

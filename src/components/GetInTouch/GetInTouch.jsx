@@ -43,8 +43,8 @@ const GetInTouch = () => {
                     <article className='artikel'>
                         <BsWhatsapp />
                         <h4>WhatsApp</h4>
-                        <h5>0813-2682-2309</h5>
-                        <a href='https://wa.me/6281326822309'>Send a message</a>
+                        <h5>0812-1371-7460</h5>
+                        <a href='https://wa.me/6281213717460'>Send a message</a>
                     </article>
                 </div>
                 
