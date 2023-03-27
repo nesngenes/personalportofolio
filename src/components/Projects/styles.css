@@ -102,12 +102,7 @@
         align-items: flex-start;
         margin: 40px 0;
     }
-
-    .project a {
-        padding: 16px 2px;
-        margin-right: 2px;
-    }
-
+    
     .projects img {
         width: 200px;
     }

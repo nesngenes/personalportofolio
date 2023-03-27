@@ -26,7 +26,6 @@ const Projects = () => {
               </p>
               <a href='https://angie-iota.vercel.app/' target='_blank' className='visit-button'>Visit Site</a>
               <a href='https://github.com/nesngenes/angie' target='_blank' className='source-code'>Source Code</a>
-              <a href='https://www.figma.com/file/ASB9hzAE5dGtroEHds9Caq/ANGIE-SALON-AND-SPA?node-id=160%3A18&t=Y5TAtzuGhaG4uaB5-1' target='_blank' className='source-code'>View Figma</a>
             </div>
           </div>
          
@@ -44,7 +43,6 @@ const Projects = () => {
               </p>
               <a href='https://labuenacafe.up.railway.app/labuenacafe' target='_blank' className='visit-button'>Visit Site</a>
               <a href='https://github.com/nesngenes/labuenacafeMERN' target='_blank' className='source-code'>Source Code</a>
-              <a href='https://www.figma.com/file/JuX7PJrzaAnnCziLIBhpp2/LaBuena-Cafe?node-id=0%3A1&t=rHIgVDriwtFLCfag-1' target='_blank' className='source-code'>View Figma</a>
             </div>
           </div>
           
