@@ -25,7 +25,6 @@ const Skills = () => {
           <p>Golang</p>
           <p>Gin Gonic</p>
           <p>PostgreSQL</p>
-          <p>Golang</p>
           <p>Node.js</p>
           <p>Express.js</p>
           <p>MongoDB</p>
