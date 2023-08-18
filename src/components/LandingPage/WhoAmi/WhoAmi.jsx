@@ -10,7 +10,16 @@ const WhoAmi = () => {
 
         <div className='brief-intro'>
           <h2>Who am i </h2>
-          <p>Hai! Saya Agnes, mahasiswa kelas karyawan jurusan Teknik Informatika Universitas Esa Unggul. Sekarang (pada semester 5 ini) saya sedang cuti kuliah dikarenakan faktor ekonomi dan saat ini saya sedang membutuhkan pekerjaan. <br/> <br />Saya memang belum memiliki pengalaman bekerja, tetapi saya telah mempelajari Web Development dengan menggunakan MongoDB, Express.js, React JS, dan Node.js selama kurang lebih 2 tahun. Untuk saat ini saya sedang berfokus mendalami Frontend dengan menggunakan CSS dan Figma sebagai UI design toolnya. Saya juga akan terus belajar dan berkembang menjadi pribadi maupun developer yang lebih baik.</p>
+          <p>👋 Hi, I'm Agnes Maria Anggelina! 🌟
+            <br/> 
+            🚀 Golang Enthusiast | Code Explorer
+            <br/>
+              🎓 Enigma Camp Graduate
+            <br/>
+              💻 Turning Bugs into Features | Building Digital Dreams
+            <br/>
+              🌌 Let's Collaborate and Code Together! 💬🔧
+            </p>
         </div>
 
         <HeaderSocials />

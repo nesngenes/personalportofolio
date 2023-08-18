@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles.css'
-import { labuenaver2, aone, albatech, angie, dreamer } from '../../assets'
+import { labuenaver2, aone, albatech, angie, bootcamp_interview_api } from '../../assets'
 
 
 
@@ -14,6 +14,22 @@ const Projects = () => {
 
         <div className='project'>
             <div className='project-title'>
+              <p>Backend, Golang, Gin Gonic</p>
+              <h1>Bootcamp Candidate Interview API</h1>
+              <div className='image-wrapper'>
+              <img src={bootcamp_interview_api} />
+              </div>
+            </div>
+            <div className='project-cotent'>
+              <p className='project-description'>
+              The bootcamp candidate interview application is a collaborative project designed to assist both HR professionals and interviewers in the candidate recruitment process. With the help of Gin Gonic, our application can be executed using both Postman and a Frontend interface. Additionally, I have also added advanced features, including email sending using Go Mail and seamless file uploads to Cloudinary. Furthermore, our application has undergone comprehensive unit testing and is now fully prepared for deployment.
+              </p>
+              <a href='https://github.com/nesngenes/Bootcamp-Candidate-Interview-Application' target='_blank' className='source-code'>Source Code</a>
+            </div>
+          </div>
+
+        <div className='project'>
+            <div className='project-title'>
               <p>Spa, UI/UX</p>
               <h1>Angie Spa</h1>
               <div className='image-wrapper'>
@@ -22,7 +38,7 @@ const Projects = () => {
             </div>
             <div className='project-cotent'>
               <p className='project-description'>
-              Angie Spa merupakan side project untuk belajar UI/UX sekaligus untuk latihan skill frontend terutama React JS dan CSS.
+              Angie Spa is a side project for learning UI/UX as well as practicing frontend skills, particularly React JS and CSS.
               </p>
               <a href='https://angie-iota.vercel.app/' target='_blank' className='visit-button'>Visit Site</a>
               <a href='https://github.com/nesngenes/angie' target='_blank' className='source-code'>Source Code</a>
@@ -39,9 +55,8 @@ const Projects = () => {
             </div>
             <div className='project-cotent'>
               <p className='project-description'>
-              LaBuena merupakan website cafe yang saya buat menggunakan MongoDB, Express.js, React, Node.js (MERN Stack). Di dalam website ini juga terdapat API seperti MapBox untuk dapat melihat lokasi cabang cafe pada sebuah Map dan API google oauth agar user dapat login dengan akun google mereka.
+              LaBuena is a cafe website that I created using MongoDB, Express.js, React, Node.js (MERN Stack). Within this website, there are also APIs such as MapBox to view the cafe branch locations on a map and the Google OAuth API for users to log in with their Google accounts.
               </p>
-              <a href='https://labuenacafe.up.railway.app/labuenacafe' target='_blank' className='visit-button'>Visit Site</a>
               <a href='https://github.com/nesngenes/labuenacafeMERN' target='_blank' className='source-code'>Source Code</a>
             </div>
           </div>
@@ -57,9 +72,8 @@ const Projects = () => {
             </div>
             <div className='project-cotent'>
               <p className='project-description'>
-              Mengubah desain Figma yang telah diberikkan perusahaan Albatech menjadi clean code dengan React JS. Serta menampilkan external API jika user login dengan email eve.holt@reqres.in dan password dapat diisi bebas.
+              Transforming the Figma design provided by Albatech company into clean code using React JS. Also, displaying external APIs if the user logs in with the email eve.holt@reqres.in and the password can be entered freely.
               </p>
-              <a href='https://frontendtest-production.up.railway.app/albatech' target='_blank' className='visit-button'>Visit Site</a>
               <a href='https://github.com/nesngenes/FrontEndTest' target='_blank' className='source-code'>Source Code</a>
             </div>
           </div>
@@ -75,9 +89,8 @@ const Projects = () => {
             </div>
             <div className='project-cotent'>
               <p className='project-description'>
-              Aone merupakan website e-commerce atau online shop yang menjual perlengkapan olahraga voli. Aone dibuat menggunakan MERN Stack dan menggunakan API Stripe agar user dapat melakukan pembayaran.
+              Aone is an e-commerce website or online shop that sells volleyball sports equipment. Aone is built using the MERN Stack and utilizes the Stripe API to enable users to make payments.
               </p>
-              <a href='https://aone2-production.up.railway.app/aone' target='_blank' className='visit-button'>Visit Site</a>
               <a href='https://github.com/nesngenes/aone' target='_blank' className='source-code'>Source Code</a>
             </div>
           </div>
