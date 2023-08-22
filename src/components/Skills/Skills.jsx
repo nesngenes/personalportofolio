@@ -18,6 +18,7 @@ const Skills = () => {
           <p>JavaScript</p>
           <p>CSS</p>
           <p>Axios</p>
+          <p>Redux</p>
         </div>
 
         <div className='skill'>
