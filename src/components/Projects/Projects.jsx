@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles.css'
-import { labuenaver2, aone, albatech, angie, bootcamp_interview_api } from '../../assets'
+import { labuenaver2, aone, albatech, angie, bootcamp_interview_api, agnes_laundry } from '../../assets'
 
 
 
@@ -25,6 +25,37 @@ const Projects = () => {
               The bootcamp candidate interview application is a collaborative project designed to assist both HR professionals and interviewers in the candidate recruitment process. With the help of Gin Gonic, our application can be executed using both Postman and a Frontend interface. Additionally, I have also added advanced features, including email sending using Go Mail and seamless file uploads to Cloudinary. Furthermore, our application has undergone comprehensive unit testing and is now fully prepared for deployment.
               </p>
               <a href='https://github.com/nesngenes/Bootcamp-Candidate-Interview-Application' target='_blank' className='source-code'>Source Code</a>
+            </div>
+          </div>
+
+          <div className='project'>
+            <div className='project-title'>
+              <p>Backend, Golang, Console App</p>
+              <h1>Enigma Laundry Console App</h1>
+              <div className='image-wrapper'>
+              <img src={agnes_laundry} />
+              </div>
+            </div>
+            <div className='project-cotent'>
+              <div className='project-description'>
+                <p>Enigma Laundry Console App is a Go-based application designed to simplify laundry business operations. It utilizes PostgreSQL as its backend database for efficient data storage.</p>
+                <br/>
+                <b>Features:</b>
+                <br/>
+                <p><b>Easy Navigation:</b> The system offers a straightforward terminal interface for user interaction, providing options to manage customer data, services, and transactions. <br/><br/>
+
+                <b>Multi-Functionality:</b> Users can choose from various actions such as viewing, inserting, updating, and deleting data across different tables. <br/><br/>
+
+                <b>Visual Data Representation:</b> The system presents data in a tabular format using the github.com/olekukonko/tablewriter package, enhancing data visualization.<br/><br/>
+
+                <b>Swift Data Entry:</b> Efficiently input data through the terminal, reducing errors and enhancing user experience.<br/><br/>
+
+                <b>Dynamic Updates:</b> Modify existing data by specifying the record's ID, ensuring accurate updates.<br/><br/>
+
+                <b>Effortless Deletion:</b> Delete records using their respective IDs, facilitating precise data management.
+                </p>
+              </div>
+              <a href='https://github.com/nesngenes/enigmalaundry-console-app' target='_blank' className='source-code'>Source Code</a>
             </div>
           </div>
 
