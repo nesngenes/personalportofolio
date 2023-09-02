@@ -10,16 +10,17 @@ const WhoAmi = () => {
 
         <div className='brief-intro'>
           <h2>Who am i </h2>
-          <p>👋 Hi, I'm Agnes Maria Anggelina! 🌟
-            <br/> 
-            🚀 Golang Enthusiast | Code Explorer
-            <br/>
-              🎓 Enigma Camp Graduate
-            <br/>
-              💻 Turning Bugs into Features | Building Digital Dreams
-            <br/>
-              🌌 Let's Collaborate and Code Together! 💬🔧
-            </p>
+          <p>
+          👋 Hey there, I'm Agnes Maria Anggelina! 🌼 
+          <br/>
+          🚀 Backend & Golang Enthusiast | Code Explorer
+          <br/>
+          🎓 Enigma Camp Graduate
+          <br/>
+          🎻 When I'm not coding, you'll find me playing the violin, vibing to the tunes of my favorite K-pop group SEVENTEEN 💎 and catching football matches ⚽.
+          <br/> 
+          🌌 Let's Collaborate and Code Together! 💬🔧  
+          </p>
         </div>
 
         <HeaderSocials />

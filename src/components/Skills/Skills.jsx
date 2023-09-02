@@ -32,6 +32,8 @@ const Skills = () => {
           <p>Third-Party Login</p>
           <p>RESTful API</p>
           <p>Python</p>
+          <p>C#</p>
+          <p>.Net</p>
         </div>
 
         <div className='skill'>
